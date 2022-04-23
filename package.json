@@ -1,0 +1,18 @@
+{
+  "name": "zip-tinify",
+  "version": "1.0.1",
+  "description": "图片压缩",
+  "main": "index.js",
+  "bin": {
+    "zip-tinify": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WTL",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^5.4.1",
+    "tinify": "^1.6.1"
+  }
+}
