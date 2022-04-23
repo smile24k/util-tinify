@@ -37,8 +37,8 @@ spinner.succeed(`目录解析成功,共${filesList.length}个图片需要压缩`
 function start() {
   const promises = filesList.map(file => tinify.fromFile(file).toFile(file));
   spinner.start("图片压缩中...");
-  Promise.all(promises).then((res) => {
-    spinner.succeed('压缩成功')
+  Promise.all(promises).then(() => {
+    spinner.succeed('全部压缩成功');
   }).catch(err => {
     console.log(err);
   })
