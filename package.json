@@ -1,6 +1,6 @@
 {
   "name": "zip-tinify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "图片压缩",
   "main": "index.js",
   "bin": {
